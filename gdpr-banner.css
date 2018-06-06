@@ -60,6 +60,7 @@
     font-weight: 700;
     border-radius: 50%;
     text-align: center;
+    padding: 0;
   }
   section {
     padding: 2rem;
