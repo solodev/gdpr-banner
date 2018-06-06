@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .privacy-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem .5rem;
+    background: #fff;
+    z-index: 1030;
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .content-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  
+  .privacy-banner p {
+    margin: 0;
+    color: #000;
+    padding-right: 2rem;
+    font-family: inherit;
+  }
+  
+  .privacy-banner a {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  .privacy-banner a:hover {
+    text-decoration: none;
+  }
+  
+  .privacy-banner button {
+    position: absolute;
+    right: 5px;
+    top: calc(50% - 12.5px);
+    color: #fff;
+    outline: 0;
+    height: 25px;
+    width: 25px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.35rem;
+    font-weight: 700;
+    border-radius: 50%;
+    text-align: center;
+  }
+  section {
+    padding: 2rem;
+  }
+  .main-content {
+    background: #000;
+    color: #fff !important;
+  }
+  .sub-content {
+    background: #eee;
+    color: #000 !important;
+  }
+  @media (min-width: 768px) {
+    .privacy-banner {
+      padding: 1.5rem .5rem;
+    }
+  }
+  
