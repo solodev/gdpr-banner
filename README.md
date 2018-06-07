@@ -22,6 +22,13 @@ The tutorial contains the following basic HTML markup.
 </div>
 ```
 
+## Solodev Shortcode
+```
+[privacy_banner color="#ff910e" url="/terms/privacy-policy.stml"]
+We use cookies to provide and improve our services. By using our site, you consent to cookies.
+[/privacy_banner]
+```
+
 ## CSS
 
 All required CSS is contained with gdpr-banner.css
