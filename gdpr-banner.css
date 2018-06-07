@@ -1,11 +1,10 @@
 * {
     box-sizing: border-box;
   }
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  .privacy-banner {
+ * {
+  box-sizing: border-box;
+}
+.privacy-banner {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -17,9 +16,9 @@
     color: #000;
     font-size: 14px;
     margin: 0;
+    display: none;
   }
-  
-  .content-wrapper {
+  .banner-wrapper {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
@@ -27,23 +26,23 @@
     position: relative;
     align-items: center;
   }
-  
   .privacy-banner p {
     margin: 0;
     color: #000;
-    padding-right: 2rem;
-    font-family: inherit;
+    text-align: center;
   }
-  
+  .privacy-banner .banner-wrapper p {
+      padding-right: 3rem;
+  }
   .privacy-banner a {
-    text-decoration: underline;
-    color: #000;
-  }
-  
-  .privacy-banner a:hover {
     text-decoration: none;
+    margin: 20px auto 0 auto;
+    display: block;
+    max-width: 150px;
   }
-  
+  .privacy-banner a:hover {
+    text-decoration: underline;
+  }
   .privacy-banner button {
     position: absolute;
     right: 5px;
@@ -61,21 +60,26 @@
     border-radius: 50%;
     text-align: center;
     padding: 0;
-  }
-  section {
-    padding: 2rem;
-  }
-  .main-content {
+    line-height: 1;
     background: #000;
-    color: #fff !important;
+    cursor: pointer;
   }
-  .sub-content {
-    background: #eee;
-    color: #000 !important;
+  .banner-learn {
+    color: #000;
+  }
+  .banner-accept {
+    padding: 7px 15px;
+    color: #fff;
+    border-radius: 5px;
+    background: #000;
   }
   @media (min-width: 768px) {
     .privacy-banner {
       padding: 1.5rem .5rem;
     }
+    .privacy-banner a {
+      display: inline-block;
+      margin: 0 10px;
+    }
   }
-  
+
