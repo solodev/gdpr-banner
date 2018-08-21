@@ -1,4 +1,7 @@
 # gdpr-banner
+With GDPR in full swing, your website will need the tools to be GDPR compliant.
+
+The European Union's GDPR regulations are in full swing, and websites around the world are struggling to comply to the changes. This is especially true for a variety of organizations who either wanted to wait and see how the regulations would impact their interests or how others were implementing the changes.
 
 
   		  
